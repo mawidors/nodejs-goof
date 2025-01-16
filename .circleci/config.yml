@@ -12,7 +12,4 @@ jobs:
         fail-on-issues: false
         monitor-on-build: true
 
-workflows: 
-  build-test-snyk:
-    jobs:
-      - snyk-scan
+workflows: null
