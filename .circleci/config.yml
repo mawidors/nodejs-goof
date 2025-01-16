@@ -9,7 +9,7 @@ jobs:
       - checkout
       - run: nvm install
       - snyk/scan
-        fail-onissues: false
+        fail-on-issues: false
         monitor-on-build: true
 
 workflows: 
